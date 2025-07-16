@@ -200,7 +200,7 @@ body {
     width: 70%;
 }
 .skill1 {
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -232,7 +232,7 @@ body {
     width: 70%;
     height: 60px;
 }
-
+/* 
 .exp {
     height: 115vh;
     width: 100%;
@@ -261,10 +261,10 @@ body {
 }
 .e1 {
     display: flex;
-}
+} */
 
 .project {
-    height: 90vh;
+    height: 115vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -398,8 +398,8 @@ footer {
     }
  
    .img1 {
-        height: 600px;
-        width: 600px;
+        height: 530px;
+        width: 530px;
         border-radius: 300px;
     }
     #h1{
@@ -430,7 +430,7 @@ footer {
         width: 90%;
     }
     .project{
-        height: 855px;
+        height: 240vh;
     }
     .projects{
         width: 90%;
@@ -445,7 +445,7 @@ footer {
         width: 90%;
     }
     .contact{
-         height: 880px;
+         height: 109vh;
     }
     .contact1{
         width: 90%;
@@ -456,7 +456,7 @@ footer {
 @media screen and (max-width:426px) {
    .n1{
    
-    width: 530px;
+    width: 600px;
     font-size: x-small;
     gap: 5px;
    }
@@ -467,7 +467,7 @@ footer {
 }
 .home{
     height: 850px;
-    width: 530px;
+    width: 600px;
     justify-content: space-around;
     padding-top: 10%;
 }
@@ -479,18 +479,22 @@ footer {
 .about{
     padding-top: 10%;
 
-    width: 530px;
+    width: 600px;
+    height: 100vh;
 }
 .skill1{
-    width: 530px;
+    width: 600px;
+    height:146vh;
+    justify-content: start;
 }
 .exp{
     height: 880px;
     width: 530px;
 }
 .project{
-    height: 1300px;
-    width: 530px;
+    height: 220vh;
+    width: 600px;
+    justify-content: start;
 }
 .project-card{
     width:100%;
@@ -500,7 +504,27 @@ footer {
     padding-top: 20%;
 
     /* height: 600px; */
-    width: 530px;
+    width: 600px;
+}
+footer {
+    height: 15vh;
+    width: 100%;
+    color: #000000;
+    background-color: #76677b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 4px 0px black;
 }
 
 }
+@media screen and (max-width:375px){
+    /* footer{
+        width: 160%;
+    } */
+    }
+@media screen and (max-width:320px){
+    /* footer{
+        width: 160%;
+    } */
+    }
